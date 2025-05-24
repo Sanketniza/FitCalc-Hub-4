@@ -36,7 +36,7 @@ export function App() {
             </Routes>
           </main>
           <footer className="bg-slate-800 dark:bg-slate-900 text-slate-100 py-4 text-center">
-            <p>&copy; 2024 FitCalc Hub. All rights reserved.</p>
+            <p>&copy; 2025 FitCalc Hub. All rights reserved.</p>
           </footer>
         </div>
       </Router>

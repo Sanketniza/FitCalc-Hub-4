@@ -47,7 +47,7 @@ const Results = () => {
   const percentComplete = Math.min(100, Math.round((userData.planDuration / 90) * 100));
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto mt-5">
       <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-lg mb-8">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold text-slate-800 dark:text-white font-montserrat">

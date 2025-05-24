@@ -84,7 +84,7 @@ const InputForm = () => {
 
   return (
     <motion.div 
-      className="max-w-2xl mx-auto"
+      className="max-w-2xl mx-auto mt-5"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
