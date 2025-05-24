@@ -329,7 +329,7 @@ const Results = () => {
           <h2 className="text-3xl font-bold text-slate-800 dark:text-white font-montserrat">
             Your Personalized Diet Plan
           </h2>
-          <div className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300 px-4 py-2 rounded-full font-medium sm:w-full sm:mt-4 sm:text-center sm:px-6">
+          <div className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300 px-4 py-2 rounded-full font-medium sm:w-full sm:mt-4 sm:text-center sm:px-6 sm:grid sm:grid-cols-1 sm:gap-2">
             {mealPlan.dailyCalories} calories/day
           </div>
         </div>
