@@ -325,11 +325,11 @@ const Results = () => {
 
       {/* Meal Plan Section */}
       <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-lg mb-8">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex justify-between items-center mb-8 sm:flex-col sm:items-start sm:gap-2">
           <h2 className="text-3xl font-bold text-slate-800 dark:text-white font-montserrat">
             Your Personalized Diet Plan
           </h2>
-          <div className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300 px-4 py-2 rounded-full font-medium">
+          <div className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300 px-4 py-2 rounded-full font-medium sm:w-full sm:mt-4 sm:text-center sm:px-6">
             {mealPlan.dailyCalories} calories/day
           </div>
         </div>

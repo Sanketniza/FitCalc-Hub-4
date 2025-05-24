@@ -196,8 +196,8 @@ const Dashboard = () => {
   return (
     <div className="max-w-5xl mx-auto">
       <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-lg mb-8">
-        <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl font-bold text-slate-800 dark:text-white" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+        <div className="flex justify-between items-center mb-6 sm:flex-row flex-col">
+          <h1 className="text-3xl font-bold text-slate-800 dark:text-white sm:mb-0 mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
             {userData.name}'s Dashboard
           </h1>
           <button

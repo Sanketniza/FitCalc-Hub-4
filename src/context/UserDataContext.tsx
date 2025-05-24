@@ -55,20 +55,6 @@ export interface MealPlanType {
   fatTarget: number;
 }
 
-const defaultUserData: UserData = {
-  name: '',
-  age: 25,
-  weight: 70,
-  height: 170,
-  gender: 'male',
-  activityLevel: 'moderate',
-  fitnessGoal: 'maintain',
-  steps: 8000,
-  planDuration: 30,
-  dietaryPreference: 'non-vegetarian',
-  allergies: [],
-  mealCount: 3
-};
 
 export const UserDataContext = createContext<UserDataContextType>({
   userData: null,
