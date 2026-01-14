@@ -15,6 +15,7 @@ export interface UserData {
   mealCount: 2 | 3 | 4 | 5 | 6;
 }
 
+
 interface UserDataContextType {
   userData: UserData | null;
   setUserData: (data: UserData) => void;
